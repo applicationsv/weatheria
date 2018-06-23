@@ -26,8 +26,8 @@
     "docker:debug"      : "run-s -cs docker:open:win docker:open:mac docker:taillogs"
   },
   "config"         : {
-    "imageRepo": "duluca/localcast-weather",
-    "imageName": "localcast-weather",
+    "imageRepo": "signoir/weatheria",
+    "imageName": "weatheria",
     "imagePort": "8080"
   },
   "private"        : true,
