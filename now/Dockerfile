@@ -1,1 +1,1 @@
-FROM signoir/weatheria:0.1.0
+FROM signoir/weatheria:0.1.1

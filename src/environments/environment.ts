@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  appId     : '51113d1e9e44ee54f885aa7aa730ea25',
-  baseUrl   : 'http://',
-};
+  appId: '51113d1e9e44ee54f885aa7aa730ea25',
+  baseUrl: 'http://',
+}
 
 /*
  * In development mode, to ignore zone related error stack frames such as
