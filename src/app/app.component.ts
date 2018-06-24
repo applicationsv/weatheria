@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
             <span>AnonyNews&trade; Weather Forecast</span>
         </mat-toolbar>
         <div fxLayoutAlign="center">
-            <div class="mat-caption vertical-margin">Your city, your forecast, right now!</div>
+            <div class="mat-caption vertical-margin">Search your city weather forecast.</div>
         </div>
         <div fxLayoutAlign="center">
             <app-city-search></app-city-search>
