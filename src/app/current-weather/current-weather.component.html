@@ -10,9 +10,16 @@
             <img style="zoom: 175%" [src]='current.image'>
         </div>
         <div fxFlex class="right no-margin">
-            <p class="mat-display-3">{{current.temperature | f2c}}
-                <span class="mat-display-1 unit">°C</span>
-            </p>
+            <div *ngIf="current.temperature != 0">
+                <p class="mat-display-3">{{current.temperature | number:'1.0-0' | f2c}}
+                    <span class="mat-display-1 unit">°C</span>
+                </p>
+            </div>
+            <div *ngIf="current.temperature == 0">
+                <p class="mat-display-3">{{current.temperature | number:'1.0-0'}}
+                    <span class="mat-display-1 unit">°C</span>
+                </p>
+            </div>
         </div>
     </div>
     <div fxLayoutAlign="center" class="mat-caption">
