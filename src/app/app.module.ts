@@ -11,6 +11,7 @@ import { CitySearchTpldrivenComponent } from './city-search-tpldriven/city-searc
 import { CitySearchComponent } from './city-search/city-search.component';
 import { CurrentWeatherComponent } from './current-weather/current-weather.component';
 import { WeatherService } from './weather/weather.service';
+import { FahrenheitCelsiusPipe } from './pipes/fahrenheit-celcius.pipe';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { WeatherService } from './weather/weather.service';
     CurrentWeatherComponent,
     CitySearchComponent,
     CitySearchTpldrivenComponent,
+    FahrenheitCelsiusPipe
   ],
   imports     : [
     BrowserModule,

@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ICurrentWeather } from '../interfaces';
 import { WeatherService } from '../weather/weather.service';
+import { FahrenheitCelsiusPipe } from '../pipes/fahrenheit-celcius.pipe';
 
 @Component({
   selector   : 'app-current-weather',
   templateUrl: './current-weather.component.html',
   styleUrls  : ['./current-weather.component.css'],
+  providers  : [FahrenheitCelsiusPipe]
 })
 export class CurrentWeatherComponent implements OnInit {
   current: ICurrentWeather;

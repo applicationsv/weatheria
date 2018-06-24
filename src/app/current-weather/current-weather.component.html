@@ -10,8 +10,8 @@
             <img style="zoom: 175%" [src]='current.image'>
         </div>
         <div fxFlex class="right no-margin">
-            <p class="mat-display-3">{{current.temperature | number:'1.0-0'}}
-                <span class="mat-display-1 unit">℉</span>
+            <p class="mat-display-3">{{current.temperature | f2c}}
+                <span class="mat-display-1 unit">°C</span>
             </p>
         </div>
     </div>
